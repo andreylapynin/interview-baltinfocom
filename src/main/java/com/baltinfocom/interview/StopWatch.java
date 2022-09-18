@@ -4,6 +4,8 @@ import static java.lang.System.currentTimeMillis;
 
 public class StopWatch {
 
+    String commit;
+
     public static long start() {
         return currentTimeMillis();
     }
@@ -11,5 +13,4 @@ public class StopWatch {
     public static long getElapsedTime(long start) {
         return currentTimeMillis() - start;
     }
-
 }
