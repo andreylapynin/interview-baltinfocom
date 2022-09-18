@@ -10,4 +10,3 @@
    ```bash
     java -jar baltinfocom-1.0-SNAPSHOT.jar lng.txt
    ```
-   new
